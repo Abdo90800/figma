@@ -1,4 +1,5 @@
 import img from "../images/3.png"
+import logo from "../images/imagefigma.png"
 function MainContent() {
   return (
     <div>
@@ -6,7 +7,7 @@ function MainContent() {
         <div className="text-center mb-[270px] ">
           <div className="mb-11 flex justify-center space-x-4 ">
             <img
-              src="../../public/imagefigma.png"
+              src={logo}
               alt="User 1"
               className="w-[210px] h-[52px]  "
             />
